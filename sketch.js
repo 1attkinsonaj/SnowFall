@@ -61,6 +61,10 @@ else if (keyDown(DOWN_ARROW)) {
 // }
   ground.display();
   pokemon.display();
+  fill(0);
+  stroke("white");
+  textSize(25);
+  text("Use arrow keys to move Character",40,40);
   //drawSprites();
 }
 
